@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(199, 199, 216);
+  height: 100vh; /*Forcer le body à prendre toute la View Height*/
+  display: flex; /*Utiliser Flex*/
+  justify-content: center; /*Center verticallement*/
+  align-items: center; /*Centrer horizontalement*/
+}
+ 
+.article {
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+.image {
+  width: 100%;
+  border-radius: 15px;
+}
+.title, .text {
+  font-family:  "Gill Sans", sans-serif;
+}
+.title {
+  padding: 2px;
+  margin: 5px;
+  letter-spacing: -1px;
+  opacity: 0.70;
+} 
+.text {
+  opacity: 0.50;
+  padding: 5px;
+  margin: 5px;
+}
